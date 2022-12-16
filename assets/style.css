@@ -60,7 +60,7 @@ p {
 
 .float-left {
     font-size: 50px;
-    float: left;
+    flex: 0 0 25%;
     margin-right: 25px;
 }
 
@@ -87,6 +87,7 @@ p {
 
  .container img {
     max-height: 400px;
+    width: 100%;
 } 
 
 .top-img {
@@ -119,6 +120,7 @@ p {
 .bottom-image {
     display: grid;
     grid-template-columns: repeat(2, 100%);
+    grid-gap: 10px;
 }
 
 .title-container {
@@ -128,7 +130,7 @@ p {
     text-align: right;
     padding: 0 26px 0 0;
     width: auto;
-    float: left;
+    flex: 0 0 20%;
 }
 
 .footer {
@@ -138,15 +140,31 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    width: 100%;
+    display: flex;
+    
+    
 }
 
 .footer h2 {
     font-size: 20px;
+    
+    
 }
 
-.footer div ul li {
+.footer ul li {
     display: inline-block;
     margin-left: 25px;
+    
+    
+}
+
+.footer ul {
+    width: 50%;
+    display: flex;
+    flex: 0 0 75%;
+    justify-content: space-between;
+    align-items: center;
 }
 
 @media screen and (max-width: 500px) {
