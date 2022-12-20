@@ -20,7 +20,7 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport.
 
-I've designed my this personal portfolio Which has my name, photoand links to sections about my work. The UI scrolls to a section with titled image of my applications.
+I've designed this personal portfolio Which has my name, photoand links to sections about my work. The UI scrolls to a section with titled image of my applications.
 
 https://siddz415.github.io/My-personal-portfolio/
-![Screenshot of the Site](./assets/images/Untitled.png?raw=true)
+![Screenshot of the Site](./assets/images/Untitled.png?raw=true) 
